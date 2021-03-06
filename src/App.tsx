@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('trim left', "\t\t\tsampleSpaces\t\t\t".trimLeft());  
   return (
     <div className="App">
       <header className="App-header">
