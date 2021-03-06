@@ -3,11 +3,8 @@
         [
             "@babel/preset-env",
             {
-                "useBuiltIns": "entry"
+                "useBuiltIns": false
             }
         ]
-    ],
-    "targets": {
-        "ie": "11"
-    }
+    ]
 }
